@@ -1,0 +1,108 @@
+<!doctype HTML>
+<html lang="en-US">
+	<head>
+		<title>Cook Food Simple</title>
+		<meta charset ="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link rel = "shortcut icon" href= "images/cookfoodsimple.png">
+		<link href="css/cssreset.css" type="text/css" rel="stylesheet">
+		<link href="css/styles.css" type="text/css" rel="stylesheet">
+		<link href="css/mediaQuery.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+		<script src="script/jquery-3.2.1.min.js"></script>
+		
+	</head>
+	<body>
+<!--Navigation-->	
+		<nav>
+			<div id="logo"><img src="images/cookfoodsimple.png"></div>
+
+			<div id="navMenu">
+				<ul id="navItems">
+					<li><a href="#">Home</a></li>
+					<li><a href="#dishesContainer">Dishes</a></li>
+					<li><a href="#drinksContainer">Drinks</a></li>
+					<li><a>More</a></li>
+				</ul>
+			</div>
+		</nav>
+<!--Navigation END-->
+		<main>	
+
+			<div class="container" id="featureContainer">
+				<div class ="containerItem">
+					<div id="featureImage"><img src="photos/moscowmule.jpg"></div>
+					<div id="featureDescription">Moscow Mule is a delicious drink that anybody can make perfectly</div>
+				</div>
+			</div>
+			<div class="container" id="dishesContainer">
+				
+				<h1 class="containerTitle">DISHES</h1>
+				<p>Simple Dishes that are simply great</p>
+				<ul>
+					<li>
+						<img src ="photos/steakwhisky.jpg" >
+						<button onclick="openModal('#modalContainer', 0)">STEAK AND WHISKY</button>
+					</li>
+
+						<div class="modal" id ="modalContainer"> 
+							<div class="recipe">
+								
+								
+							</div>
+						</div>
+					
+					<li>
+						<img src ="photos/sirachaspam.jpg" >
+						<button onclick ="openModal('#modalContainer', 1)">SIRACHA SPAM</button>
+					</li>
+
+					
+					<li>
+						<img src ="photos/spinachtomato.jpg" >
+						<button onclick ="openModal('#modalContainer', 2)">Tomato Spinach Egg</button>
+					</li>
+
+					<li>
+						<img src ="photos/moscowmule.jpg" >
+						<button>MOSCOW MULE</button>
+						
+					</li>
+
+					<li>
+						<img src ="photos/oldfauxfashion.jpg">
+						<button>OLD FAUX FASHION</button>
+						
+					</li>
+
+				</ul>
+				
+			</div>
+			<div class="container" id="drinksContainer">
+				
+				<h1 class="containerTitle">DRINKS</h1>
+				<p>Easy to make drinks for any event</p>
+				<ul>
+					<li>
+						<img src ="photos/moscowmule.jpg" >
+						<button>MOSCOW MULE</button>
+						
+					</li>
+					<li>
+						<img src ="photos/oldfauxfashion.jpg">
+						<button>OLD FAUX FASHION</button>
+						
+					</li>
+					
+				
+				</ul>
+				
+			</div>
+		</main>
+	</body>
+	<footer>
+		<h3>Copyright 2017</h3>
+	</footer>
+
+<script src="script/customScript.js"></script>
+</html>

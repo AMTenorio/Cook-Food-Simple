@@ -1,0 +1,185 @@
+/*Navigation*/
+nav {
+	display: flex;
+	background-color: rgb(39,117,84);
+	font-family: arial;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+
+#logo {
+	width: 100px;
+	margin: 10px;
+}
+
+#logo img {
+	width: 100%;
+}
+
+
+nav li {
+	display: inline-block;
+	margin: 10px;
+	transition: .75s ease;
+}
+
+a {
+	color: rgb(117,175,150);
+}
+
+nav li:hover {
+	transform: scale(1.3);
+}
+/*Navigation End*/
+
+main {
+	font-family: 'Patrick Hand', cursive;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	position: relative;
+	top: 100px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.containerTitle {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 5vh;
+}
+
+/*Feature Content*/
+#featureContainer {
+	height: auto;
+	width: 100%;
+	margin-bottom: 70px;
+	background-image: linear-gradient(to bottom, black 70%, white 100%), url("../Images/cuttingboard.jpg");
+	background-blend-mode: color-dodge;
+}
+
+.containerItem{
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	flex-direction: row;
+	align-items: center;
+}
+#featureImage {
+	width: 48%;
+	margin: 30px 0px 30px 100px;
+	height: auto;
+}
+#featureImage img{
+	width: 75%;
+	box-shadow: 10px 10px 20px #888888;
+}
+#featureDescription{
+	width: 48%;
+	font-size: 6vw;
+	font-weight: lighter;
+	justify-content: center;
+}
+/*Feature Content End*/
+
+/*Item Containers*/
+.container ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.container li{
+	display: flex-block;
+	width: 20%;
+	margin: 15px;
+	padding: 5px;
+	background-color: white;
+	box-shadow: 10px 10px 20px #888888;
+	transition: .75s ease;
+}
+
+.container li:hover{
+	transform: scale(1.1);
+}
+
+.container img {
+	width: 100%;
+}
+
+button {
+	border: none;
+	background-color: white;
+	font-family: 'Patrick Hand', cursive;
+	width: 100%;
+	cursor: pointer;
+}
+
+.modal {
+	position: fixed;
+	top: 100px;
+	left: 5%;
+	right: 5%;
+	bottom: 100px;
+	z-index: 2;
+	min-width: 80%;
+	min-height: 80%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0,.8);
+	height: auto;
+	color: white;
+	text-indent: center;
+	display:none;
+  padding: 20px;
+  text-align:right;
+}
+
+.recipe {
+	margin: 50px;
+	font-size: 5vh;
+  text-align:left;
+}
+
+.recepie h1 {
+	font-size: 6vh;
+	margin-bottom: 10px;
+}
+
+.modal span {
+	font-size: 5vh;
+	transition: ease .75s;
+	cursor: pointer; 
+}
+
+span:hover {
+	transform: scale(1.3);
+}
+
+hr {
+	background-color: white;
+  margin: 0 50px;
+}
+
+
+/*Item Containers End*/
+
+/*Footer*/
+footer {
+	position: relative;
+	height: 100px;
+	background-color: rgb(39,117,84);
+	margin-top: 130px;
+	text-align: center, bottom;
+	color: white;
+}
+/*Footer End*/
+
+
+/*Main Content End*/

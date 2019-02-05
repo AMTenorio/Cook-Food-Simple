@@ -1,0 +1,13 @@
+[
+	{
+		"name":"Steak and Whisky",
+		"ingredients": ["Steak","Salt","Pepper","Olive Oil","Garlic Powder","Whisky"],
+		"steps":[
+			"Brush steak with olive oil, salt,pepper, garlic and garlic powder.",
+			"Heat grill to high",
+			"Place steak on grill 4 to 5 min",
+			"Turn stake and grill the other side for 5 min (medium-rear) (7 min for medium) ( 10 for well done)",
+			"Rest steak for 5 min and serve with whisky."
+		]
+	}
+]

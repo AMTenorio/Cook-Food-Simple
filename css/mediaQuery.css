@@ -1,0 +1,33 @@
+@media only screen and (max-width: 425px) {
+	.containerItem {
+		flex-direction: column;
+	}
+
+	#featureContainer {
+	margin-bottom: 50px;
+}
+
+	#featureImage {
+		width: 100%;
+	}
+
+	#featureDescription {
+		width: 100%;
+		margin-top: 10px;
+		font-size: 4vw;
+	}
+
+	.container ul {
+	flex-direction: column;
+	align-items: center;
+	}
+
+	.container li {
+		width: 80%;
+	}
+
+	.recepie {
+	margin: 50px;
+	font-size: 3vh;
+	}
+}
